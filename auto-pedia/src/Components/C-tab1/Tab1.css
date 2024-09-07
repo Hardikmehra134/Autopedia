@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+.About{
+    min-height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./Tab1-Images/BG.jpg");
+    color: white;
+    height: 70vh;
+    margin: 0;
+}
+
+.Content-Card{
+    background-color: white;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-image: url("./Tab1-Images/BG.jpg");
+}
+
+.Reviews {
+    background-color: hsl(31, 77%, 52%);
+    height: 400px;
+    width: 90%;
+    padding: 40px;
+    border-radius: 10px;
+  }
+.Reviews .image {
+    margin-bottom: auto;
+  }
+.Reviews h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    margin-top: 20px;
+  }
+  
+.Reviews p {
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.Comparison {
+    background-color: hsl(184, 100%, 22%);
+    height: 400px;
+    width: 90%;
+    padding: 40px;
+    border-radius: 10px;
+}
+  .Comparison .image {
+    margin-bottom: auto;
+}
+.Comparison h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    margin-top: 20px;
+}
+  
+.Comparison p {
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+  
+.Variants {
+    background-color: hsl(179, 100%, 13%);
+    height: 400px;
+    width: 90%;
+    padding: 40px;
+    border-radius: 10px;
+}
+.Variants .image {
+    margin-bottom: auto;
+}
+.Variants h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive;
+    margin-top: 20px;
+}
+  
+.Variants p {
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .Content-Card {
+      display: flex;
+      flex-direction: column;
+      width:auto;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .Reviews,
+    .Comparison,
+    .Variants{
+        margin: 5px;
+        width: auto;
+    }
+  }

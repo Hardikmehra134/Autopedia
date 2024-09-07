@@ -1,0 +1,55 @@
+.Bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    color: white;
+    gap: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Nav-Logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.Logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 2px solid white;
+}
+
+.YouTube img,
+.Instagram img,
+.Contact img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.Social-handels{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    right: 10px;
+    gap: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .Bar{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Title h1{
+        font-size: x-large;
+    }
+    .Logo img{
+        height: 40px;
+        width: 40px;
+    } 
+}
